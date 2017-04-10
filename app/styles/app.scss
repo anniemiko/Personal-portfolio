@@ -1,10 +1,10 @@
 
-// Bootstrap Variables
-$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
-
-// Import Bootstrap
-@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-
+// // Bootstrap Variables
+// $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+//
+// // Import Bootstrap
+// @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../node_modules/materialize-css/sass/materialize.scss';
 
 *,
 *::before,
@@ -14,4 +14,60 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
 img {
   max-width: 100%;
+}
+
+.page-flexbox-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+  flex: 1 0 auto;
+  }
+
+nav {
+  height: 80px;
+}
+.navbar {
+  background-color: white;
+}
+.brand-logo img {
+    height: 55px;
+    padding-top: 22px;
+    padding-left: 30px;
+}
+ul .nav a{
+  color: #6E92A3;
+  font-size: 18px;
+}
+#nav-mobile{
+  padding-right: 40px;
+  line-height: 80px;
+}
+
+main {
+  background-image: url('../images/woodgrain-farm.jpg');
+  background-size: cover;
+}
+h2 {
+  text-shadow: 1px 1px 4px black;
+}
+.card-content span{
+  color: #7295B4;
+}
+.card-content a{
+  color: #FFB040;
+}
+
+.social-links{
+  height: 40px;
+  padding-left: 10px;
+}
+.page-footer {
+  background-color: #6E92A3;
+}
+.copyright {
+  color: white;
+  padding-left: 20px;
 }
