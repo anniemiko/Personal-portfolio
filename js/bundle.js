@@ -15,17 +15,17 @@ render(){
           React.createElement("h2", {className: "header white-text"}, "About Me"), 
           React.createElement("div", {className: "card horizontal"}, 
             React.createElement("div", {className: "card-image"}, 
-              React.createElement("img", {src: "images/profile-pic.jpg"})
+              React.createElement("img", {src: "images/profile-pic_3.jpg"})
             ), 
             React.createElement("div", {className: "card-stacked"}, 
               React.createElement("div", {className: "card-content"}, 
                 React.createElement("p", {className: "section"}, "I am a budding front end developer with a passion for simple design and clean code. I am a recent graduate of The Iron Yard's front end engineering program, where I quickly became proficient in the basics of front end development - HTML, CSS and Javascript, along with relevant libraries and frameworks such as jQuery, SASS, Backbone, Handlebars, Bootstrap, React, and Materialize."), 
                 React.createElement("p", {className: "section"}, "What drew me to coding was the necessity for lifelong learning and the opportunity to work with teams on big projects. I was specifically drawn to front end development as I love to design things that are both aesthetically pleasing and easily accessible. Looking for the silver lining comes naturally to me, and I believe a balance of patience, passion, and persistence are the keys to solving any problem."), 
-                React.createElement("p", {className: "section"}, "I love people, animals, and the great outdoors. Some of my favorite hobbies are baking, sewing and painting. Though most likely, if I’m not coding up a storm, you’ll find me out hiking a trail.")
+                React.createElement("p", {className: "section"}, "I love people, animals, and the great outdoors. My passion for making the world a more sustainable place for all is what drives me. I've worked on various issues over the years, including social justice, animal welfare, and climate change. I'm excited to use my new coding skills to continue working on these important issues.")
               ), 
               React.createElement("div", {className: "card-action"}, 
-                React.createElement("a", {href: "mailto:andrea.f.baty@gmail.com"}, "Email me"), 
-                React.createElement("a", {href: "tel:+1225-266-8455"}, "Call me"), 
+                React.createElement("span", {className: "email"}, "EMAIL ME: "), React.createElement("a", {id: "email-add", href: "mailto:andrea.f.baty@gmail.com"}, "andrea.f.baty@gmail.com"), 
+
                 React.createElement("a", {href: "https://www.linkedin.com/in/andreabaty/"}, React.createElement("img", {className: "social-links right", src: "images/In-2C-66px-TM.png"})), 
                 React.createElement("a", {href: "https://github.com/anniemiko/"}, React.createElement("img", {className: "social-links right", src: "images/GitHub-Mark-64px.png"}))
               )
@@ -124,7 +124,7 @@ render(){
               ), 
               React.createElement("div", {className: "card-content"}, 
                 React.createElement("span", {className: "card-title left-align activator grey-text text-darken-4"}, "Habit Formation App", React.createElement("i", {className: "material-icons right"}, "info_outline")), 
-                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/Final-Project/"}, "Open Application"))
+                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/Final-Project/"}, "Open Application"), " | ", React.createElement("a", {href: "https://github.com/anniemiko/Final-Project"}, "View Code"))
               ), 
               React.createElement("div", {className: "card-reveal"}, 
                 React.createElement("span", {className: "card-title grey-text text-darken-4"}, "Final Project", React.createElement("i", {className: "material-icons right"}, "close")), 
@@ -139,7 +139,7 @@ render(){
               ), 
               React.createElement("div", {className: "card-content"}, 
                 React.createElement("span", {className: "card-title left-align activator grey-text text-darken-4"}, "Etsy Recreation", React.createElement("i", {className: "material-icons right"}, "info_outline")), 
-                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/4.2-Etsy-recreation/"}, "View Page"))
+                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/4.2-Etsy-recreation/"}, "Open Page"), " | ", React.createElement("a", {href: "https://github.com/anniemiko/4.2-Etsy-recreation/"}, "View Code"))
               ), 
               React.createElement("div", {className: "card-reveal"}, 
                 React.createElement("span", {className: "card-title grey-text text-darken-4"}, "Etsy Recreation", React.createElement("i", {className: "material-icons right"}, "close")), 
@@ -154,7 +154,7 @@ render(){
               ), 
               React.createElement("div", {className: "card-content"}, 
                 React.createElement("span", {className: "card-title left-align activator grey-text text-darken-4"}, "Pixel Perfect", React.createElement("i", {className: "material-icons right"}, "info_outline")), 
-                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/1.4-pixel-perfect/"}, "View Page"))
+                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/1.4-pixel-perfect/"}, "Open Page"), " | ", React.createElement("a", {href: "https://github.com/anniemiko/1.4-pixel-perfect/"}, "View Code"))
               ), 
               React.createElement("div", {className: "card-reveal"}, 
                 React.createElement("span", {className: "card-title grey-text text-darken-4"}, "Pixel Perfect", React.createElement("i", {className: "material-icons right"}, "close")), 
@@ -169,7 +169,7 @@ render(){
               ), 
               React.createElement("div", {className: "card-content"}, 
                 React.createElement("span", {className: "card-title left-align activator grey-text text-darken-4"}, "Turn-based Game", React.createElement("i", {className: "material-icons right"}, "info_outline")), 
-                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/5.3-turn-based-game/"}, "Play Game"))
+                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/5.3-turn-based-game/"}, "Play Game"), " | ", React.createElement("a", {href: "https://github.com/anniemiko/5.3-turn-based-game/"}, "View Code"))
               ), 
               React.createElement("div", {className: "card-reveal"}, 
                 React.createElement("span", {className: "card-title grey-text text-darken-4"}, "Turn-based Game", React.createElement("i", {className: "material-icons right"}, "close")), 
