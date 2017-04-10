@@ -20,7 +20,7 @@ render(){
               </div>
               <div className="card-content">
                 <span className="card-title left-align activator grey-text text-darken-4">Habit Formation App<i className="material-icons right">info_outline</i></span>
-                <p className="left-align"><a href="https://anniemiko.github.io/Final-Project/">Open Application</a></p>
+                <p className="left-align"><a href="https://anniemiko.github.io/Final-Project/">Open Application</a> | <a href="https://github.com/anniemiko/Final-Project">View Code</a></p>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">Final Project<i className="material-icons right">close</i></span>
@@ -35,7 +35,7 @@ render(){
               </div>
               <div className="card-content">
                 <span className="card-title left-align activator grey-text text-darken-4">Etsy Recreation<i className="material-icons right">info_outline</i></span>
-                <p className="left-align"><a href="https://anniemiko.github.io/4.2-Etsy-recreation/">View Page</a></p>
+                <p className="left-align"><a href="https://anniemiko.github.io/4.2-Etsy-recreation/">Open Page</a> | <a href="https://github.com/anniemiko/4.2-Etsy-recreation/">View Code</a></p>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">Etsy Recreation<i className="material-icons right">close</i></span>
@@ -50,7 +50,7 @@ render(){
               </div>
               <div className="card-content">
                 <span className="card-title left-align activator grey-text text-darken-4">Pixel Perfect<i className="material-icons right">info_outline</i></span>
-                <p className="left-align"><a href="https://anniemiko.github.io/1.4-pixel-perfect/">View Page</a></p>
+                <p className="left-align"><a href="https://anniemiko.github.io/1.4-pixel-perfect/">Open Page</a> | <a href="https://github.com/anniemiko/1.4-pixel-perfect/">View Code</a></p>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">Pixel Perfect<i className="material-icons right">close</i></span>
@@ -65,7 +65,7 @@ render(){
               </div>
               <div className="card-content">
                 <span className="card-title left-align activator grey-text text-darken-4">Turn-based Game<i className="material-icons right">info_outline</i></span>
-                <p className="left-align"><a href="https://anniemiko.github.io/5.3-turn-based-game/">Play Game</a></p>
+                <p className="left-align"><a href="https://anniemiko.github.io/5.3-turn-based-game/">Play Game</a> | <a href="https://github.com/anniemiko/5.3-turn-based-game/">View Code</a></p>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">Turn-based Game<i className="material-icons right">close</i></span>
