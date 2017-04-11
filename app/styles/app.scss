@@ -53,13 +53,20 @@ main {
 h2 {
   text-shadow: 1px 1px 4px black;
 }
-.card-content span{
-  color: #7295B4;
+
+.port-img {
+  box-shadow: 4px 4px 4px #3B4355;
+}
+.reveal-title {
+  color: #6E92A3;
 }
 .material-icons {
   color: #7295B4;
 }
-.card-content a{
+.reveal-text {
+  color: grey;
+}
+.links a{
   color: #FFB040;
 }
 

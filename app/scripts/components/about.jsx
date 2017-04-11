@@ -24,8 +24,8 @@ render(){
               <div className="card-action">
                 <span className="email">EMAIL ME: </span><a id="email-add" href="mailto:andrea.f.baty@gmail.com">andrea.f.baty@gmail.com</a>
 
-                <a href="https://www.linkedin.com/in/andreabaty/"><img className="social-links right" src="images/In-2C-66px-TM.png"/></a>
-                <a href="https://github.com/anniemiko/"><img className="social-links right" src="images/GitHub-Mark-64px.png"/></a>
+                <a target="_blank" href="https://www.linkedin.com/in/andreabaty/"><img className="social-links right" src="images/In-2C-66px-TM.png"/></a>
+                <a target="_blank" href="https://github.com/anniemiko/"><img className="social-links right" src="images/GitHub-Mark-64px.png"/></a>
               </div>
             </div>
           </div>
