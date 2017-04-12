@@ -71,7 +71,7 @@ class BaseLayout extends React.Component{
         React.createElement("nav", null, 
           React.createElement("div", {className: "nav-wrapper navbar"}, 
             React.createElement("a", {className: "brand-logo left"}, React.createElement("img", {src: "./images/AB-woodgrain-NAME.png"})), 
-            React.createElement("ul", {id: "nav-mobile", className: "right hide-on-med-and-down"}, 
+            React.createElement("ul", {id: "nav-mobile", className: "right"}, 
               React.createElement("li", {className: "nav"}, React.createElement("a", {href: "#portfolio"}, "Portfolio")), 
               React.createElement("li", {className: "nav"}, React.createElement("a", {href: "#about"}, "About"))
             )
@@ -118,7 +118,7 @@ render(){
         React.createElement("h2", {className: "header white-text center"}, "Portfolio"), 
         React.createElement("div", {className: "row center"}, 
           React.createElement("h4", {className: "sub-heading center"}, "Web Applications"), 
-          React.createElement("div", {className: "col s6 m3"}, 
+          React.createElement("div", {className: "col s12 m6 l3"}, 
             React.createElement("div", {className: "card"}, 
               React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/9toShine-screenshot.png"})
@@ -133,7 +133,7 @@ render(){
               )
             )
           ), 
-          React.createElement("div", {className: "col s6 m3"}, 
+          React.createElement("div", {className: "col s12 m6 l3"}, 
             React.createElement("div", {className: "card"}, 
               React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/Etsy-recreation-screenshot.png"})
@@ -147,7 +147,7 @@ render(){
               )
             )
           ), 
-          React.createElement("div", {className: "col s6 m3"}, 
+          React.createElement("div", {className: "col s12 m6 l3"}, 
             React.createElement("div", {className: "card"}, 
               React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/pixel-perfect-screenshot.png"})
@@ -161,7 +161,7 @@ render(){
               )
             )
           ), 
-          React.createElement("div", {className: "col s6 m3"}, 
+          React.createElement("div", {className: "col s12 m6 l3"}, 
             React.createElement("div", {className: "card"}, 
               React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/turn-based-game-screenshot.png"})
@@ -178,7 +178,7 @@ render(){
         ), 
         React.createElement("div", {className: "row center"}, 
           React.createElement("h4", {className: "sub-heading center"}, "Graphic Design"), 
-          React.createElement("div", {className: "col s6 m3"}, 
+          React.createElement("div", {className: "col s12 m6 l3"}, 
             React.createElement("div", {className: "card"}, 
               React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/Metro-EDNY-Vote-poster.jpg"})
@@ -193,7 +193,7 @@ render(){
               )
             )
           ), 
-          React.createElement("div", {className: "col s6 m3"}, 
+          React.createElement("div", {className: "col s12 m6 l3"}, 
             React.createElement("div", {className: "card"}, 
               React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/DVMag_April2016_Final.jpg"})
@@ -207,7 +207,7 @@ render(){
               )
             )
           ), 
-          React.createElement("div", {className: "col s6 m3"}, 
+          React.createElement("div", {className: "col s12 m6 l3"}, 
             React.createElement("div", {className: "card"}, 
               React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/PA_MKE_program2016.jpg"})
@@ -221,7 +221,7 @@ render(){
               )
             )
           ), 
-          React.createElement("div", {className: "col s6 m3"}, 
+          React.createElement("div", {className: "col s12 m6 l3"}, 
             React.createElement("div", {className: "card"}, 
               React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/AndreaBatyResume2017.jpg"})
