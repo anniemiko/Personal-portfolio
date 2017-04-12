@@ -4,6 +4,7 @@ var ReactDOM = require('react-dom');
 
 var PortfolioContainer = require('./components/portfolio.jsx').PortfolioContainer;
 var AboutContainer = require('./components/about.jsx').AboutContainer;
+var ResumeContainer = require('./components/resume.jsx').ResumeContainer;
 
 var AppRouter = Backbone.Router.extend({
   routes: {
@@ -11,7 +12,7 @@ var AppRouter = Backbone.Router.extend({
     'home': 'port',
     'portfolio': 'port',
     'about': 'about',
-    'contact': 'contact'
+    'resume': 'resume'
   },
   port: function(){
     ReactDOM.render(
@@ -22,6 +23,12 @@ var AppRouter = Backbone.Router.extend({
   about: function(){
     ReactDOM.render(
       React.createElement(AboutContainer),
+      document.getElementById('app')
+    )
+  },
+  resume: function(){
+    ReactDOM.render(
+      React.createElement(ResumeContainer),
       document.getElementById('app')
     )
   }

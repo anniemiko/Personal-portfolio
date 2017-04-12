@@ -1,6 +1,7 @@
 var React = require('react');
 var Backbone = require('backbone');
 var Materialize = require('materialize-css');
+require('../../../node_modules/materialize-css/js/cards.js');
 
 var BaseLayout = require('./base.jsx').BaseLayout;
 
