@@ -14,7 +14,7 @@ render(){
         <h2 className="header white-text center">Portfolio</h2>
         <div className="row center">
           <h4 className="sub-heading center">Web Applications</h4>
-          <div className="col s6 m3">
+          <div className="col s12 m6 l3">
             <div className="card">
               <div className="card-image port-img waves-effect waves-block waves-light">
                 <img className="activator" src="images/9toShine-screenshot.png" />
@@ -29,7 +29,7 @@ render(){
               </div>
             </div>
           </div>
-          <div className="col s6 m3">
+          <div className="col s12 m6 l3">
             <div className="card">
               <div className="card-image port-img waves-effect waves-block waves-light">
                 <img className="activator" src="images/Etsy-recreation-screenshot.png" />
@@ -43,7 +43,7 @@ render(){
               </div>
             </div>
           </div>
-          <div className="col s6 m3">
+          <div className="col s12 m6 l3">
             <div className="card">
               <div className="card-image port-img waves-effect waves-block waves-light">
                 <img className="activator" src="images/pixel-perfect-screenshot.png" />
@@ -57,7 +57,7 @@ render(){
               </div>
             </div>
           </div>
-          <div className="col s6 m3">
+          <div className="col s12 m6 l3">
             <div className="card">
               <div className="card-image port-img waves-effect waves-block waves-light">
                 <img className="activator" src="images/turn-based-game-screenshot.png" />
@@ -74,7 +74,7 @@ render(){
         </div>
         <div className="row center">
           <h4 className="sub-heading center">Graphic Design</h4>
-          <div className="col s6 m3">
+          <div className="col s12 m6 l3">
             <div className="card">
               <div className="card-image port-img waves-effect waves-block waves-light">
                 <img className="activator" src="images/Metro-EDNY-Vote-poster.jpg" />
@@ -89,7 +89,7 @@ render(){
               </div>
             </div>
           </div>
-          <div className="col s6 m3">
+          <div className="col s12 m6 l3">
             <div className="card">
               <div className="card-image port-img waves-effect waves-block waves-light">
                 <img className="activator" src="images/DVMag_April2016_Final.jpg" />
@@ -103,7 +103,7 @@ render(){
               </div>
             </div>
           </div>
-          <div className="col s6 m3">
+          <div className="col s12 m6 l3">
             <div className="card">
               <div className="card-image port-img waves-effect waves-block waves-light">
                 <img className="activator" src="images/PA_MKE_program2016.jpg" />
@@ -117,7 +117,7 @@ render(){
               </div>
             </div>
           </div>
-          <div className="col s6 m3">
+          <div className="col s12 m6 l3">
             <div className="card">
               <div className="card-image port-img waves-effect waves-block waves-light">
                 <img className="activator" src="images/AndreaBatyResume2017.jpg" />

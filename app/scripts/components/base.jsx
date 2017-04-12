@@ -20,7 +20,7 @@ class BaseLayout extends React.Component{
         <nav>
           <div className="nav-wrapper navbar">
             <a className="brand-logo left"><img src="./images/AB-woodgrain-NAME.png" /></a>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <ul id="nav-mobile" className="right">
               <li className="nav"><a href="#portfolio">Portfolio</a></li>
               <li className="nav"><a href="#about">About</a></li>
             </ul>
