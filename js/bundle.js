@@ -19,15 +19,15 @@ render(){
             ), 
             React.createElement("div", {className: "card-stacked"}, 
               React.createElement("div", {className: "card-content"}, 
-                React.createElement("p", {className: "section"}, "I am a budding front end developer with a passion for simple design and clean code. I am a recent graduate of The Iron Yard's front end engineering program, where I quickly became proficient in the basics of front end development - HTML, CSS and Javascript, along with relevant libraries and frameworks such as jQuery, SASS, Backbone, Handlebars, Bootstrap, React, and Materialize."), 
-                React.createElement("p", {className: "section"}, "What drew me to coding was the necessity for lifelong learning and the opportunity to work with teams on big projects. I was specifically drawn to front end development as I love to design things that are both aesthetically pleasing and easily accessible. Looking for the silver lining comes naturally to me, and I believe a balance of patience, passion, and persistence are the keys to solving any problem."), 
+                React.createElement("p", {className: "section"}, "A budding front end developer with a passion for simple design and clean code. I am a recent graduate of The Iron Yard's front end engineering program, where I quickly became proficient in the basics of front end development - HTML, CSS and Javascript, along with relevant libraries and frameworks such as jQuery, SASS, Backbone, Handlebars, Bootstrap, React, and Materialize."), 
+                React.createElement("p", {className: "section"}, "What drew me to coding was the necessity for lifelong learning and the opportunity to work with teams on big projects. I was specifically drawn to front end development as I love to design things that are both aesthetically pleasing and user-friendly. Looking for the silver lining comes naturally to me, and I believe a balance of patience, passion, and persistence are the keys to solving any problem."), 
                 React.createElement("p", {className: "section"}, "I love people, animals, and the great outdoors. My passion for making the world a more sustainable place for all is what drives me. I've worked on various issues over the years, including social justice, animal welfare, and climate change. I'm excited to use my new coding skills to continue working on these important issues.")
               ), 
               React.createElement("div", {className: "card-action"}, 
                 React.createElement("span", {className: "email"}, "EMAIL ME: "), React.createElement("a", {id: "email-add", href: "mailto:andrea.f.baty@gmail.com"}, "andrea.f.baty@gmail.com"), 
 
-                React.createElement("a", {href: "https://www.linkedin.com/in/andreabaty/"}, React.createElement("img", {className: "social-links right", src: "images/In-2C-66px-TM.png"})), 
-                React.createElement("a", {href: "https://github.com/anniemiko/"}, React.createElement("img", {className: "social-links right", src: "images/GitHub-Mark-64px.png"}))
+                React.createElement("a", {target: "_blank", href: "https://www.linkedin.com/in/andreabaty/"}, React.createElement("img", {className: "social-links right", src: "images/In-2C-66px-TM.png"})), 
+                React.createElement("a", {target: "_blank", href: "https://github.com/anniemiko/"}, React.createElement("img", {className: "social-links right", src: "images/GitHub-Mark-64px.png"}))
               )
             )
           )
@@ -115,71 +115,125 @@ render(){
   return(
     React.createElement(BaseLayout, null, 
       React.createElement("div", {className: ""}, 
-        React.createElement("h2", {className: "header white-text center"}, "PORTFOLIO"), 
+        React.createElement("h2", {className: "header white-text center"}, "Portfolio"), 
         React.createElement("div", {className: "row center"}, 
+          React.createElement("h4", {className: "sub-heading center"}, "Web Applications"), 
           React.createElement("div", {className: "col s6 m3"}, 
             React.createElement("div", {className: "card"}, 
-              React.createElement("div", {className: "card-image waves-effect waves-block waves-light"}, 
+              React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/9toShine-screenshot.png"})
               ), 
-              React.createElement("div", {className: "card-content"}, 
-                React.createElement("span", {className: "card-title left-align activator grey-text text-darken-4"}, "Habit Formation App", React.createElement("i", {className: "material-icons right"}, "info_outline")), 
-                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/Final-Project/"}, "Open Application"), " | ", React.createElement("a", {href: "https://github.com/anniemiko/Final-Project"}, "View Code"))
-              ), 
+
               React.createElement("div", {className: "card-reveal"}, 
-                React.createElement("span", {className: "card-title grey-text text-darken-4"}, "Final Project", React.createElement("i", {className: "material-icons right"}, "close")), 
-                React.createElement("p", null, "This is a habit formation app I created for the final project at The Iron Yard.")
+                React.createElement("i", {className: "card-title material-icons right"}, "close"), 
+                React.createElement("p", {className: "card-title reveal-title"}, "Habit Formation App"), 
+                React.createElement("p", {className: "reveal-text"}, "This is a habit formation app developed as my final project at The Iron Yard."), 
+                React.createElement("p", {className: "reveal-text"}, "Developed with React.js, Materializecss, using a backend Parse server, and OAuth API for Pocket"), 
+                React.createElement("p", {className: "center-align links"}, React.createElement("a", {target: "_blank", href: "https://anniemiko.github.io/Final-Project/"}, "Open App"), " | ", React.createElement("a", {target: "_blank", href: "https://github.com/anniemiko/Final-Project"}, "View Code"))
               )
             )
           ), 
           React.createElement("div", {className: "col s6 m3"}, 
             React.createElement("div", {className: "card"}, 
-              React.createElement("div", {className: "card-image waves-effect waves-block waves-light"}, 
+              React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/Etsy-recreation-screenshot.png"})
               ), 
-              React.createElement("div", {className: "card-content"}, 
-                React.createElement("span", {className: "card-title left-align activator grey-text text-darken-4"}, "Etsy Recreation", React.createElement("i", {className: "material-icons right"}, "info_outline")), 
-                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/4.2-Etsy-recreation/"}, "Open Page"), " | ", React.createElement("a", {href: "https://github.com/anniemiko/4.2-Etsy-recreation/"}, "View Code"))
-              ), 
               React.createElement("div", {className: "card-reveal"}, 
-                React.createElement("span", {className: "card-title grey-text text-darken-4"}, "Etsy Recreation", React.createElement("i", {className: "material-icons right"}, "close")), 
-                React.createElement("p", null, "This is a recreation of the Etsy main page created in week 4 of The Iron Yard program.")
+                React.createElement("i", {className: "card-title material-icons right"}, "close"), 
+                React.createElement("p", {className: "card-title reveal-title"}, "Etsy Re-creation"), 
+                React.createElement("p", {className: "reveal-text"}, "This is a recreation of the Etsy main page created in week 4 of The Iron Yard program."), 
+                React.createElement("p", {className: "reveal-text"}, "Developed using HTML5 and CSS3 with some JavaScript."), 
+                React.createElement("p", {className: "center-align links"}, React.createElement("a", {target: "_blank", href: "https://anniemiko.github.io/4.2-Etsy-recreation/"}, "Open Page"), " | ", React.createElement("a", {target: "_blank", href: "https://github.com/anniemiko/4.2-Etsy-recreation/"}, "View Code"))
               )
             )
           ), 
           React.createElement("div", {className: "col s6 m3"}, 
             React.createElement("div", {className: "card"}, 
-              React.createElement("div", {className: "card-image waves-effect waves-block waves-light"}, 
+              React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/pixel-perfect-screenshot.png"})
               ), 
-              React.createElement("div", {className: "card-content"}, 
-                React.createElement("span", {className: "card-title left-align activator grey-text text-darken-4"}, "Pixel Perfect", React.createElement("i", {className: "material-icons right"}, "info_outline")), 
-                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/1.4-pixel-perfect/"}, "Open Page"), " | ", React.createElement("a", {href: "https://github.com/anniemiko/1.4-pixel-perfect/"}, "View Code"))
-              ), 
               React.createElement("div", {className: "card-reveal"}, 
-                React.createElement("span", {className: "card-title grey-text text-darken-4"}, "Pixel Perfect", React.createElement("i", {className: "material-icons right"}, "close")), 
-                React.createElement("p", null, "This page is a pixel-perfect recreation of a design comp completed in the first week of The Iron Yard program.")
+                React.createElement("i", {className: "card-title material-icons right"}, "close"), 
+                React.createElement("p", {className: "card-title reveal-title"}, "Pixel Perfect"), 
+                React.createElement("p", {className: "reveal-text"}, "This page is a pixel-perfect re-creation of a design comp completed in the first week of The Iron Yard program."), 
+                React.createElement("p", {className: "reveal-text"}, "Developed with HTML5 and CSS3."), 
+                React.createElement("p", {className: "center-align links"}, React.createElement("a", {target: "_blank", href: "https://anniemiko.github.io/1.4-pixel-perfect/"}, "Open Page"), " | ", React.createElement("a", {target: "_blank", href: "https://github.com/anniemiko/1.4-pixel-perfect/"}, "View Code"))
               )
             )
           ), 
           React.createElement("div", {className: "col s6 m3"}, 
             React.createElement("div", {className: "card"}, 
-              React.createElement("div", {className: "card-image waves-effect waves-block waves-light"}, 
+              React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
                 React.createElement("img", {className: "activator", src: "images/turn-based-game-screenshot.png"})
               ), 
-              React.createElement("div", {className: "card-content"}, 
-                React.createElement("span", {className: "card-title left-align activator grey-text text-darken-4"}, "Turn-based Game", React.createElement("i", {className: "material-icons right"}, "info_outline")), 
-                React.createElement("p", {className: "left-align"}, React.createElement("a", {href: "https://anniemiko.github.io/5.3-turn-based-game/"}, "Play Game"), " | ", React.createElement("a", {href: "https://github.com/anniemiko/5.3-turn-based-game/"}, "View Code"))
-              ), 
               React.createElement("div", {className: "card-reveal"}, 
-                React.createElement("span", {className: "card-title grey-text text-darken-4"}, "Turn-based Game", React.createElement("i", {className: "material-icons right"}, "close")), 
-                React.createElement("p", null, "This fun game was developed with a partner as part of the Iron Yard program.")
+                React.createElement("i", {className: "card-title material-icons right"}, "close"), 
+                React.createElement("p", {className: "card-title reveal-title"}, "Turn-based Game"), 
+                React.createElement("p", {className: "reveal-text"}, "This fun game was developed with a partner as part of the Iron Yard program."), 
+                React.createElement("p", {className: "reveal-text"}, "Developed using JavaScript, JQuery, Bootstrap, Underscore, Handlebars, HTML and CSS."), 
+                React.createElement("p", {className: "center-align links"}, React.createElement("a", {target: "_blank", href: "https://anniemiko.github.io/5.3-turn-based-game/"}, "Play Game"), " | ", React.createElement("a", {target: "_blank", href: "https://github.com/anniemiko/5.3-turn-based-game/"}, "View Code"))
               )
             )
           )
         ), 
-        React.createElement("div", {className: "row center"}
+        React.createElement("div", {className: "row center"}, 
+          React.createElement("h4", {className: "sub-heading center"}, "Graphic Design"), 
+          React.createElement("div", {className: "col s6 m3"}, 
+            React.createElement("div", {className: "card"}, 
+              React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
+                React.createElement("img", {className: "activator", src: "images/Metro-EDNY-Vote-poster.jpg"})
+              ), 
 
+              React.createElement("div", {className: "card-reveal"}, 
+                React.createElement("i", {className: "card-title material-icons right"}, "close"), 
+                React.createElement("p", {className: "card-title reveal-title"}, "Earth Day New York Poster"), 
+                React.createElement("p", {className: "reveal-text"}, "This poster was designed for display in local New York businesses as part of the MetroNY Best of Green Business campaign."), 
+                React.createElement("p", {className: "reveal-text"}, "Designed using Adobe Illustrator and Photoshop."), 
+                React.createElement("p", {className: "center-align links"}, React.createElement("a", {target: "_blank", href: "images/Metro-EDNY-Vote-posterV2.pdf"}, "View Poster"))
+              )
+            )
+          ), 
+          React.createElement("div", {className: "col s6 m3"}, 
+            React.createElement("div", {className: "card"}, 
+              React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
+                React.createElement("img", {className: "activator", src: "images/DVMag_April2016_Final.jpg"})
+              ), 
+              React.createElement("div", {className: "card-reveal"}, 
+                React.createElement("i", {className: "card-title material-icons right"}, "close"), 
+                React.createElement("p", {className: "card-title reveal-title"}, "Magazine Ad"), 
+                React.createElement("p", {className: "reveal-text"}, "This print ad was created for ProAm camera cranes to run in the April Issue of Digital Video Magazine."), 
+                React.createElement("p", {className: "reveal-text"}, "Designed using Adobe Illustrator and Photoshop."), 
+                React.createElement("p", {className: "center-align links"}, React.createElement("a", {target: "_blank", href: "images/DVMag_April2016_Final.pdf"}, "View Ad"))
+              )
+            )
+          ), 
+          React.createElement("div", {className: "col s6 m3"}, 
+            React.createElement("div", {className: "card"}, 
+              React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
+                React.createElement("img", {className: "activator", src: "images/PA_MKE_program2016.jpg"})
+              ), 
+              React.createElement("div", {className: "card-reveal"}, 
+                React.createElement("i", {className: "card-title material-icons right"}, "close"), 
+                React.createElement("p", {className: "card-title reveal-title"}, "Bi-fold Graduation Program"), 
+                React.createElement("p", {className: "reveal-text"}, "This is the cover of a program designed for the 2016 graduation of Milwaukee Public Allies."), 
+                React.createElement("p", {className: "reveal-text"}, "Designed using Adobe Illustrator."), 
+                React.createElement("p", {className: "center-align links"}, React.createElement("a", {target: "_blank", href: "images/PA_MKE_program2016.pdf"}, "View Image"))
+              )
+            )
+          ), 
+          React.createElement("div", {className: "col s6 m3"}, 
+            React.createElement("div", {className: "card"}, 
+              React.createElement("div", {className: "card-image port-img waves-effect waves-block waves-light"}, 
+                React.createElement("img", {className: "activator", src: "images/AndreaBatyResume2017.jpg"})
+              ), 
+              React.createElement("div", {className: "card-reveal"}, 
+                React.createElement("i", {className: "card-title material-icons right"}, "close"), 
+                React.createElement("p", {className: "card-title reveal-title"}, "Resume"), 
+                React.createElement("p", {className: "reveal-text"}, "With a background in design, of course I had to design my own resume!"), 
+                React.createElement("p", {className: "center-align links"}, React.createElement("a", {target: "_blank", href: "images/AndreaBatyResume2017.pdf"}, "View Resume"))
+              )
+            )
+          )
         )
       )
     )
