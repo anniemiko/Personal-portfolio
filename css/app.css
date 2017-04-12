@@ -6751,7 +6751,7 @@ nav {
   padding-left: 30px; }
 
 ul .nav a {
-  color: #6E92A3;
+  color: #4E7C98;
   font-size: 18px; }
 
 #nav-mobile {
@@ -6766,8 +6766,10 @@ h2 {
   text-shadow: 1px 1px 4px black; }
 
 .sub-heading {
-  color: #31506B;
-  background-color: rgba(255, 250, 250, 0.5); }
+  font-size: 30px;
+  color: #4E7C98;
+  padding: 5px;
+  background-color: rgba(255, 250, 250, 0.75); }
 
 .port-img {
   box-shadow: 4px 4px 4px #3B4355; }
@@ -6800,4 +6802,5 @@ h2 {
 .copyright {
   color: white;
   padding-left: 20px; }
+
 /*# sourceMappingURL=app.css.map */
